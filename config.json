@@ -1,0 +1,18 @@
+{
+  "name": "Web Scraper",
+  "version": "1.0",
+  "slug": "webscraper",
+  "description": "Add-on para login e extração de dados com Selenium",
+  "arch": ["amd64", "armv7", "aarch64"],
+  "startup": "application",
+  "boot": "auto",
+  "options": {},
+  "schema": {},
+  "ports": {},
+  "host_network": false,
+  "map": ["config:rw"],
+  "privileged": ["NET_ADMIN"],
+  "init": false,
+  "image": "local/webscraper-addon",
+  "stage": "experimental"
+}
